@@ -4,19 +4,16 @@
     box-sizing: border-box;
 }
 
-/* [class^='container'] {
-    border: 1px dashed black;
-    background-color: lightblue;
-}
-[class^='row'] {
-    border: 1px dashed red;
-
-}
-[class^='col'] {
-    border: 1px dashed green;
-    background-color: blueviolet;
-
-} */
 .col-grigia {
     background-color: #F2F2F2;
+}
+.navbar {
+    background-color: #212529;
+}
+.navbar-brand > img {
+    width: 65px;
+    height: 65px;
+}
+.disponibilità {
+    font-size: 13px;
 }
