@@ -17,3 +17,6 @@
 .disponibilità {
     font-size: 13px;
 }
+.row:hover {
+    opacity: 0.5;
+}
