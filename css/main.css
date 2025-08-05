@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* [class^='container'] {
+    border: 1px dashed black;
+    background-color: lightblue;
+}
+[class^='row'] {
+    border: 1px dashed red;
+
+}
+[class^='col'] {
+    border: 1px dashed green;
+    background-color: blueviolet;
+
+} */
