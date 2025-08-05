@@ -41,13 +41,13 @@
           <a class="nav-link active text-light" aria-current="page" href="#">Catalogo Libri</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled text-secondary" aria-disabled="true">Anagrafica Utenti</a>
+          <a class="nav-link text-secondary link-light" href="#">Anagrafica Utenti</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled text-secondary" aria-disabled="true">Storico Prestiti</a>
+          <a class="nav-link text-secondary link-light" aria-disabled="true" href="#">Storico Prestiti</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled text-secondary" aria-disabled="true">Help</a>
+          <a class="nav-link text-secondary link-light" aria-disabled="true" href="#">Help</a>
         </li>
       </ul>
     </div>
@@ -61,7 +61,7 @@
 
 <div class="container mt-4">
 <!-- Titolo / Bottone inizio pagina -->
- <div class="container">
+ <div class="container mb-4">
      <div class="row justify-content-between">
 
      <div class="col">
@@ -73,19 +73,20 @@
     </div>
   </div>
 </div>
+
 <!-- Descrizione colonne  -->
  <div class="container text-left mb-2">
   <div class="row">
-    <div class="col col-md-6">
+    <div class="col col-sm-6 col-md-5 ">
       <strong>Titolo</strong>
     </div>
-    <div class="col col-md-2">
+    <div class="col col-md-2 d-sm-none d-md-block">
       <strong>Data prestito</strong>
     </div>
-    <div class="col col-md-2">
+    <div class="col  col-sm-3 col-md-2">
       <strong>Stato</strong>
     </div>
-    <div class="col col-md-2 text-center">
+    <div class="col col-sm-3 col-md-3  text-center">
       <strong>Azioni</strong>
     </div>
   </div>
@@ -94,26 +95,26 @@
 <!-- Inizio righe libri -->
 
 
- <div class="container text-left">
+ <div class="container text-left ">
 
-  <div class="row">
+  <div class="row d-flex align-items-center bg-secondary">
     <!-- Titolo -->
-    <div class="col col-md-6">
+    <div class="col col-sm-6 col-md-5 ">
 
       <span>I pilastri della terra</span>
     </div>
     <!-- Data prestito -->
-    <div class="col col-md-2">
+    <div class="col col-md-2 d-sm-none d-md-block">
 
       <span>-</span>
     </div>
     <!-- Disponibilità -->
-    <div class="col col-md-2">
+    <div class="col col-sm-3 col-md-2 ">
 
-      <span>Disponibile</span>
+      <span class="text-light bg-success rounded-1 px-1">Disponibile</span>
     </div>
     <!-- Azioni -->
-    <div class="col col-md-2 text-center">
+    <div class="col col-sm-3 text-sm-nowrap col-md-3 text-center ">
 
     <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
     <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
